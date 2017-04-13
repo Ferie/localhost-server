@@ -1,0 +1,15 @@
+{
+    "name": "localhost_server",
+    "version": "1.0.0",
+    "description": "Run a local server with Node",
+    "scripts": {
+        "test": ""
+    },
+    "author": "Riccardo Andreatta",
+    "license": "MIT",
+    "devDependencies": {
+        "express": "^4.15.2",
+        "dotenv": "^4.0.0",
+        "body-parser": "^1.17.1",
+    }
+}
