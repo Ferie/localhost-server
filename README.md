@@ -4,7 +4,11 @@ This tool simply start a localhost server in a node.js environment.
 
 ### Installation
 
-To install it you need a node environment working with ```npm``` or another package installer. Just running the ```npm install``` it will install the dependencies in the ```package.json file``` that are: ```express```, ```dotenv``` and ```body-parser```
+To install it you need a node environment working with ```npm``` or another package manager like `yarn` or `bower`.
+
+Just run the ```npm install``` to install all the node modules in the ```package.json file```.
+
+You can also install them separately if you do not need all of them: ```npm install express``` (*required*), ```npm install dotenv``` and ```npm install body-parser```
 
 
 ### Configuration
@@ -15,8 +19,10 @@ You can also load a ```.env``` file that may load some variables that you can us
 
 ### Start the localhost server
 
-To run it, in a command line, go to the directory where the file is placed and run this command:
+To start the localhost server, in the command line, go to the directory where the `server.js` file is placed and run:
 
 ```
 node server
 ```
+
+To stop it just close the terminal window or type `CTRL + C`.
