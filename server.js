@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var mainFile = '/index.html';
 
 // Set your available localhost port here
-var localhostPort = 9050;
+var localhostPort = 9000;
 
 // Get cofiguration file from .env (if needed)
 dotenv.load();
