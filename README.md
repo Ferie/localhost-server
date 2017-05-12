@@ -25,4 +25,10 @@ To start the localhost server, in the command line, go to the directory where th
 node server
 ```
 
+or, if you prefer,
+
+```
+npm start
+```
+
 To stop it just close the terminal window or type `CTRL + C`.
