@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Run a local server with Node",
     "scripts": {
-        "test": ""
+        "start": "node server"
     },
     "author": "Riccardo Andreatta",
     "license": "MIT",
