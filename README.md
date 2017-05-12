@@ -15,7 +15,7 @@ You can also install them separately if you do not need all of them: ```npm inst
 
 Open the file ```server.js``` and configure your own listening port and the main file you want to be loaded by the localhost at startup.
 
-You can also load a ```.env``` file that may load some variables that you can use in your environment (using the ```dotenv``` plugin) and/or parse incoming request bodies in a middleware (using the ```body-parser``` plugin). If you are not using these features you can comment/delete the dotenv and body-parser lines in the file.
+You can also load a ```.env``` file that may load some variables that you can use in your environment ([using the ```dotenv``` plugin](https://www.npmjs.com/package/dotenv)) and/or parse incoming request bodies in a middleware ([using the ```body-parser``` plugin](https://www.npmjs.com/package/body-parser)). If you are not using these features you can comment/delete the dotenv and body-parser lines in the file (lines 14 and 17).
 
 ### Start the localhost server
 
