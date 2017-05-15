@@ -16,12 +16,12 @@ dotenv.load();
 // Parse incoming request bodies in a middleware before your handlers (if needed)
 localhost.use(bodyParser.json());
 
-// Request the main file and start the server
-localhost.get('/', function (req, res) {
+// Start the server and manage a mod rewrite that forward to specified page
+localhost.use(express.static(__dirname));
+
+localhost.get(/.*/, function (req, res) {
     res.sendFile(__dirname + mainFile);
 });
-
-localhost.use(express.static(__dirname));
 
 localhost.listen(localhostPort, function () {
     console.log("Start surfing at localhost:%d", localhostPort);
