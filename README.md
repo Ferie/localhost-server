@@ -1,34 +1,36 @@
 # A ready to use localhost server
 
-This tool simply start a localhost server in a node.js environment.
+This tool is a ready to use localhost Node server.
 
-### Installation
+## Installation
 
-To install it you need a node environment working with ```npm``` or another package manager like `yarn` or `bower`.
+To install it you need a node environment working with `npm` or any another package manager (e.g. `yarn`).
 
-Just run the ```npm install``` to install all the node modules in the ```package.json file```.
+Just run the `npm i` to install all the node modules in the `package.json` file.
 
-You can also install them separately if you do not need all of them: ```npm install express``` (*required*), ```npm install dotenv``` and ```npm install body-parser```
+You can also install them separately if you do not need all of them: `npm install express` (*required*), `npm install dotenv` and `npm install body-parser`
 
 
-### Configuration
+## Configuration
 
-Open the file ```server.js``` and configure your own listening port and the main file you want to be loaded by the localhost at startup.
+Open the `server.js` file and configure your own listening port and the main file you want to be loaded by the localhost at startup.
 
-You can also load a ```.env``` file that may load some variables that you can use in your environment ([using the ```dotenv``` plugin](https://www.npmjs.com/package/dotenv)) and/or parse incoming request bodies in a middleware ([using the ```body-parser``` plugin](https://www.npmjs.com/package/body-parser)). If you are not using these features you can comment/delete the dotenv and body-parser lines in the file (lines 14 and 17).
+As this server is using the [`dotenv` plugin](https://www.npmjs.com/package/dotenv), you can also load a `.env` file to load some variables that you may use in your environment.
 
-### Start the localhost server
+If you decide also to install the [`body-parser` plugin](https://www.npmjs.com/package/body-parser) you may also parse incoming request bodies in a middleware before your handlers.
 
-To start the localhost server, in the command line, go to the directory where the `server.js` file is placed and run:
+If you are not using these features you can comment/delete the lines that are referred to dotenv and body-parser.
 
+## Start the localhost server
+
+To start the localhost server in the terminal, go to the directory where the `server.js` file is located and run:
 ```
 node server
 ```
 
 or, if you prefer,
-
 ```
 npm start
 ```
 
-To stop it just close the terminal window or type `CTRL + C`.
+To stop it just close the terminal window or press `CTRL + C`.
