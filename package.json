@@ -6,7 +6,7 @@
         "start": "node server"
     },
     "author": "Riccardo Andreatta",
-    "license": "MIT",
+    "license": "GNU-GPL",
     "devDependencies": {
         "express": "^4.17.1",
         "dotenv": "^8.0.0",
