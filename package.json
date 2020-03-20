@@ -8,8 +8,10 @@
     "author": "Riccardo Andreatta",
     "license": "GNU-GPL",
     "devDependencies": {
-        "express": "^4.17.1",
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
         "dotenv": "^8.0.0",
-        "body-parser": "^1.19.0"
+        "express": "^4.17.1",
+        "mocha": "^7.0.1"
     }
 }
